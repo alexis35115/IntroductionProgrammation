@@ -32,7 +32,7 @@ int main()
     scanf_s("%d", &chiffre); // Le "%d" est pour le type int
     while(getchar() != '\n');
 
-    getchar(); // requis pour empêcher la fermeture automatique de la fenêtre
+    system("pause>nul"); // requis pour empêcher la fermeture automatique de la fenêtre
     return 0;
 }
 ```
@@ -53,7 +53,7 @@ int main()
     printf("Veuillez saisir un chiffre.");
     scanf_s("%d", &chiffre);
 
-    getchar(); // Le programme se fermera vu que le buffer contient encore des valeurs
+    system("pause>nul"); // Le programme se fermera vu que le buffer contient encore des valeurs
     return 0;
 }
 ```
@@ -69,7 +69,7 @@ int main()
     scanf_s("%d", &chiffre);
     while(getchar() != '\n');
 
-    getchar(); // requis pour empêcher la fermeture automatique de la fenêtre
+    system("pause>nul"); // requis pour empêcher la fermeture automatique de la fenêtre
     return 0;
 }
 ```
@@ -90,7 +90,7 @@ int main()
         // Insérer code ici
     }
 
-    getchar();
+    system("pause>nul");
     return 0;
 }
 ```
@@ -124,7 +124,7 @@ int main()
 	// AFFICHE : L'âge à la fin du traitement est : 29.
 
 	// Faire en sorte que la console reste ouverte
-	getchar();
+	system("pause>nul");
 
 	return 0;
 }
@@ -174,7 +174,7 @@ int main()
 	afficherMessageBienvenue();
 
 	// Faire en sorte que la console reste ouverte
-	getchar();
+	system("pause>nul");
 
 	return 0;
 }
@@ -198,7 +198,7 @@ int main()
 	printf_s("Voici la valeur de la somme : %d", somme);
 
 	// Faire en sorte que la console reste ouverte
-	getchar();
+	system("pause>nul");
 
 	return 0;
 }
@@ -224,7 +224,7 @@ int main()
 	printf_s("Voici la valeur de la somme : %d", somme);
 
 	// Faire en sorte que la console reste ouverte
-	getchar();
+	system("pause>nul");
 
 	return 0;
 }
@@ -258,7 +258,7 @@ int main()
 	printf_s("Voici la valeur de la soustraction : %d", soustraction);
 
 	// Faire en sorte que la console reste ouverte
-	getchar();
+	system("pause>nul");
 
 	return 0;
 }
@@ -342,7 +342,7 @@ int main()
 	afficherInformationsEtudiant(etudiant);
 
 	// Faire en sorte que la console reste ouverte
-	getchar();
+	system("pause>nul");
 
 	return 0;
 }
